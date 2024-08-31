@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragya Sood - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts (optional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1 class="logo">Pragya Sood</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <div class="intro">
+                <img src="pic.png" alt="Pragya Sood" class="profile-pic">
+                <h2>Hi, I'm Pragya Sood</h2>
+                <p>I am a 3rd year Btech student in Jain University.</p>
+                <a href="#resume" class="btn">View Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate Computer Science Engineering student and love to gain new knowledge and Experience in this feild. I am highly motivated student and My objective is to consistently improve my technical expertise, adopt to emerging technologies, And keep growing as an individual.  </p>
+            <h3>Skills</h3>
+            <ul class="skills">
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>c++</li>
+                <li>...and more</li>
+            </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="webpic.png" alt="Project 1">
+                    <h3>Building a website using html/css and java</h3>
+                    <p>It is a shopping website for new generation teens with tendy clothes and affordable rates. With all the clothes being reused/recycled.</p>
+                    
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="calculator.png" alt="Project 2">
+                    <h3>A Calculator</h3>
+                    <p>Building a calculator using python and then designing it usinf html and css. It does basic calculator function on a computer.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <div class="resume-content">
+                <h3>Education</h3>
+                <p><strong>Kendriya Vidayalaya D.R.D.O</strong> - My education from 1st to 10th was completed here.</p>
+                <p><strong>Deeksha College For Learning (DCFL)</strong> - My higher education (11th and 12th) was done here.</p>
+                <p><strong>Jain University</strong> - B.Tech in Computer Science Engineering (3rd Year currently)</p>
+                <h3>Experience</h3>
+                <p><strong>Internship at Niveti Systems.</strong> - [1.5 months]</p>
+                <ul>
+                    <li>Topic- Control Panel for autonomous robot system</li>
+                    <li>Learnt how to design User Interactive Interfaces</li>
+                </ul>
+                <h3>Skills Developed</h3>
+                <ul class="skills">
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>UX/UI</li>
+                    <li>...and more</li>
+                </ul>
+                <a href="resume.png" class="btn" download>Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/pragya-sood-6628aa250/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/pragyya1" target="_blank">GitHub</a>
+                <!-- Add more social links as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pragya Sood. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
